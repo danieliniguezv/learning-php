@@ -7,9 +7,13 @@
 <body>
 	<form action="form.php" method="get">
 		Name: <input type="text" name="name">
+		<br>
+		Age: <input type="text" name="age">
 		<input type="submit">
 	</form>
 	<br>
-	<?php echo $_GET["name"] ?? "" ?>
+	Your name is <?php echo $_GET["name"] ?? ""; ?>
+	<br>
+	Your age is <?php echo $_GET["age"] ?? ""; ?>
 </body>
 </html>
