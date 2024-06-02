@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>String Lowercase/title>
+	<title>String Lowercase</title>
 </head>
 <body>
 	<?php
