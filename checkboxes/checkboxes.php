@@ -13,7 +13,9 @@
 		<input type="submit">
 	</form>
 	<?php 
-		if(isset($_POST["fruits"])) {
+		/* The array is populated not by order of selection or clicked checkbox.
+		 * Instead is populted in the order the options are layed out on the form.*/
+		if(isset($_POST["fruits"])) { // Checks for the array to be populated.
 			$fruits = $_POST["fruits"];
 			echo $fruits[0];
 		}
