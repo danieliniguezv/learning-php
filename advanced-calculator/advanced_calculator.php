@@ -6,9 +6,12 @@
 </head>
 <body>
 	<form action="advanced_calculator.php" method="post">
-		Number 1: <input type="number" name="num1"><br>
+		<!-- step attribute allows to have decimals in the input in this particular
+		case it's for 1 decimal so if 2 or 3 were needed we would update step to
+		0.01 or 0.001 respectively or to the desired decimals for that matter. -->
+		Number 1: <input type="number" step="0.1" name="num1"><br>
 		OP: <input type="text" name="op"><br>
-		Number 2: <input type="number" name="num2"><br>
+		Number 2: <input type="number" step="0.1" name="num2"><br>
 		<input type="submit">
 	</form>
 	<br>
