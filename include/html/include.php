@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Include</title>
+	<title>Include HTML</title>
 </head>
 <body>
 	<?php include "header.html" ?>
